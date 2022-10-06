@@ -1,0 +1,42 @@
+.home-background{
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    background-image: url("../../public/images/home.webp");
+    background-size: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.home-intro{
+    background-color: rgba(255,255,255,0.8);
+    display: grid;
+    align-content: start;
+    gap: 30px;
+    width: 70vw;
+    height: 60vh;
+    padding: 50px;
+    margin-top: 10vh;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.home-intro-header{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.btn-home-shop{
+    display: grid;
+    justify-content: end;
+}
+.btn-home-shop-word{
+    margin-right: 30px;
+    margin-top: 30px;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #8f8f8f;
+}
+.btn-home-shop-word:hover{
+    box-shadow: 5px 5px 5px black;
+    transition: .5s;
+}

@@ -1,0 +1,71 @@
+.shop-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    justify-items: center;
+    padding: 50px;
+}
+.shop-items{
+    display: grid;
+    overflow: hidden;
+    background-color: gainsboro;
+    padding: 20px;
+    border-radius: 30px;
+}
+.shop-items img{
+    width: 100%;
+    border-radius: 20px;
+}
+.shop-info{
+    display: grid;
+    justify-content: space-between;
+    grid-auto-flow: column;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 20px 5px;
+    color: black;
+}
+.shopSubItem{
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.shopSubItem-container{
+    width: 50vw;
+    min-width: 650px;
+    gap: 50px;
+    overflow: hidden;
+    display: grid;
+    grid-auto-flow: column;
+}
+.shopSubItem-container img{
+    height: 50vh;
+}
+.shopSubItem-container form{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+    /*font-size: 1.2rem;*/
+}
+.shopSubItem-intro{
+    display: grid;
+    justify-items: end;
+    align-content: space-between;
+}
+.shopSubItem-intro input{
+    width: 50px;
+}
+.shopSubItem-intro-name{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.shopSubItem-intro-price{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.shopSubItem-btn{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}

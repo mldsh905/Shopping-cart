@@ -1,0 +1,52 @@
+.cart-empty{
+    display: grid;
+    height: 90vh;
+    justify-items: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 900;
+}
+.cart-body{
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+}
+.cart-item{
+    padding: 30px;
+    display: grid;
+    gap: 10px;
+    width: 60vw;
+    min-width: 600px;
+}
+.cart-item-container{
+    min-width: 650px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 2fr 2fr 1fr 2fr 1fr;
+    align-items: center;
+    background-color: gainsboro;
+    padding: 20px;
+    border-radius: 30px;
+}
+.cart-item-container img{
+    width: 100px;
+}
+.cart-item-container input{
+    width: 30px;
+}
+.cart-item-container button{
+    width: 60px;
+}
+.cart-item-allPrice{
+    display: grid;
+    justify-items: end;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 20px;
+}
+.cart-item-continue{
+    /*width: 80px;*/
+    display: grid;
+    justify-items: end;
+    padding: 0px 20px;
+}
